@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id("com.apollographql.apollo3") version "4.0.0-beta.2"
+    id("com.apollographql.apollo3") version "4.0.0-beta.6"
 }
 
 group = 'org.example'
@@ -14,11 +14,11 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
-    implementation("com.apollographql.apollo3:apollo-runtime-java:4.0.0-beta.2")
-    implementation("com.apollographql.apollo3:apollo-rx3-support-java:4.0.0-beta.2")
+    implementation("com.apollographql.apollo3:apollo-runtime-java:4.0.0-beta.6")
+    implementation("com.apollographql.apollo3:apollo-rx3-support-java:4.0.0-beta.6")
 
-    testImplementation("com.apollographql.apollo3:apollo-mockserver:4.0.0-beta.2")
-    testImplementation("com.apollographql.apollo3:apollo-testing-support:4.0.0-beta.2")
+    testImplementation("com.apollographql.apollo3:apollo-mockserver:4.0.0-beta.6")
+    testImplementation("com.apollographql.apollo3:apollo-testing-support:4.0.0-beta.6")
 }
 
 test {
