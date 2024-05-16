@@ -1,0 +1,12 @@
+type Query {
+    everything(something: StatusEnum): TypeA
+}
+
+type TypeA {
+    status: String
+}
+
+enum StatusEnum {
+    GOOD
+    BAD
+}

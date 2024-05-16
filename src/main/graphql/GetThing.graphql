@@ -1,0 +1,6 @@
+query GetThing($something: StatusEnum) {
+    everything(something: $something) {
+        status
+        __typename
+    }
+}
